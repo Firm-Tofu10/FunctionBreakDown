@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Title (FunctionBreakDown)
 
-Introductory paragraph (replace this with your text)
+In this project im going to break down a regex (regular expression) and explain what each part of said regex doses and how it functions. This will also explain how all the parts of the regex are defined and how each part of the function works idepedentially to get a result together.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regex is a sequence of characters that can be used to give specific search criteria to simplife the process of searching. This is benificial because is saves you from having to wright a function to do this same job.
 
 ## Table of Contents
 
@@ -21,15 +21,17 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+literal characters: are the exact matches to the characters we are looking for, for example ifI needed to fine the characters in the word Coding. Each one of the characters in coding would be a literal character becuse it is the exact character we want to spell the word coding out.
 
+Meta Character: a character that dose not include a single literal character but, instead references to a pattern that matches the operation in which we are trying to achieve.
 ### Anchors
-
+Anchors: they are used a little differently in that they are used for positioning of a character before and after characters rather than the characters themselves. This is benificial for the purpose of knowing positioning which lets us place our character in the correct spot so the Regex can properly handle positioning.
 ### Quantifiers
-
+Quantifiers: is refering more to the amount of characters in the Regex expression. Then is requiring the amount of characters to match said expression in order to get the correct characters in the Regex expression.
 ### OR Operator
-
+OR (||): for the OR operator to be true one or more of the operants must also be true. Otherwise the OR operator must be false becuse there is no operator that was true there for it is false. The OR is generally used to return a boolean values, however that being said the OR operator can be used with no boolean values and will return those values if setup to do so.
 ### Character Classes
-
+Character Classes: are used to determine which character are letters and numbers this is important to get the right character in the Regex expression.
 ### Flags
 
 ### Grouping and Capturing
