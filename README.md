@@ -1,6 +1,5 @@
 # Regex Tutorial Starter Code
-This assignment was super helpful to me becuse we broke down the idea into smaller idea to get better understanding. This is a great way for me to get better understanding of things becuse I personally need to understand how it works before i can understand the concepts. I cant understand let alone remember the smaller concepts that build the solution if I dont understand the solution itself and what it sands for.
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/   The regex pattern used is for matching email addresses.
+This assignment was super helpful to me because we broke down the idea into smaller idea to get better understanding. This is a great way for me to get better understanding of things because I personally need to understand how it works before i can understand the concepts. I cant understand let alone remember the smaller concepts that build the solution if I dont understand the solution itself and what it sands for. /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ The regex pattern used is for matching email addresses.
 
 /^( This is matching the beginning of the input. 
 
@@ -14,4 +13,4 @@ This assignment was super helpful to me becuse we broke down the idea into small
 
 \.([a-z\.] This is looking for matches for any character a-z (case sensitive) and the dot . character.
 
-{2,6})$/ This is using the greedy match method show to us by the use of the + Quantifier becuse it is greedy it will return as many matches as possible. The other Quantifier used was the Curly Braces {} this is important because it also is a greedy quantifier this is used to match the last group we need to find {2,6}.
+{2,6})$/ This is using the greedy match method show to us by the use of the + Quantifier because it is greedy it will return as many matches as possible. The other Quantifier used was the Curly Braces {} this is important because it also is a greedy quantifier this is used to match the last group we need to find {2,6}.
