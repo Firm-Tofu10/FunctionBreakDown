@@ -5,7 +5,7 @@ This assignment was super helpful to me because we broke down the idea into smal
 
 [a-z0-9_\.] This part of the expression is allowing letters(a-z),digits(0-9),Underscore(_),Dash(-), and a dot(.) from the beginning to end to be entered into the field.
 
-+)@( The middle of this expression is taking the front of the feild and adding it to the at symbol. FakeEmail12@
++)@( The middle of this expression is taking the front of the field and adding it to the at symbol. FakeEmail12@
 
 [\da-z\.-] It looks like this is taking a single digit from 0-9 any character from a-z (case sensitive) also the characters - dash, _ underscore, and . dot.
 
