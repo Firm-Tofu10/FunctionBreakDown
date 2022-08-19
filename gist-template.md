@@ -46,13 +46,13 @@ A group of characters or digits wrapped together in paranthesis are a captured g
 The bracket is used to specify characters within them the match. Any character between the brackets [] will match, and you can also use a hyphen to define a set. Curly braces {} are used to specify an exact amount of things to match. Parentheses () represent remembered matches. All the diffrent symbols listed are important to the syntaxt of the expression.
 ### Greedy and Lazy Match
 Greedy: For every position in the string Try to match the pattern at that position. If there’s no match, go to the next position.
-Lazy: This as the name implies is the optosit of a greedy search in that it will repeat the pattern for a set minimum number of times.
+Lazy: This as the name implies is the optosit of a greedy search, in that it will repeat the pattern for a set minimum number of times.
 ### Boundaries
 Boundaries: will match a position where one side is a word character is most of the time a letter,digit, or underscore and the opposite side is not a word character. 
 ### Back-references
-
+Back-references: are used to go back and capture previous text this is kinda simuler to reusing a function later. This is helpful so that you can use a previously made asset without need to repeat yourself.
 ### Look-ahead and Look-behind          
-
+Look-ahead and look-behind: Both finds patterns that are after or intorduce by another pattern. The syntaxt that dose this is both look-ahead and look-behind both again refering to search (lookaround).
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Firm-Tofu10
+My name is Bryson Benson I am a 24 year old dev at the start of my career, If there are any problems with the material or somthing I can make better please contact me via github https://github.com/Firm-Tofu10
